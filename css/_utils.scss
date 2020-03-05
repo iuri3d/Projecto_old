@@ -4,12 +4,18 @@ $iconfontsize: 1rem ;
 $iconcolor: white;
 
 $textfontsize: 1rem;
-$textfontfamily: 'Open Sans';
+$textfontfamily: 'Open Sans', sans-serif;
 $textlight: 300;
 $textregular: 400;
 $textcolor: white;
 
 $sidebarhover: darkred;
+
+$mailtitle:0.95rem;
+$mailsubject:0.8rem;
+$mailtext: 0.65;
+
+$mailcircle: 30px;
 
 
 /////// BORDERS //////
@@ -30,4 +36,14 @@ $sidebarhover: darkred;
 
 .just-center{
     justify-content: center;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.dotdotdot{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }

@@ -1,0 +1,59 @@
+@import '_utils';
+
+.maincontent{
+    background-color: darkgray;
+}
+
+.toprow{
+    height: 400px;
+}
+
+.middlerow{
+    height: 100px;
+    background-color: darkolivegreen;
+}
+
+.bottomrow{
+    height: 400px;
+}
+
+.emails{
+    background-color: darkturquoise;
+}
+
+.mailitem{
+    background-color: dimgrey;
+
+    .mailimage{
+        min-width: $mailcircle;
+        min-height: $mailcircle;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    .mailheader{
+        justify-content: space-between;
+
+        .mailtitle{
+            font-family: $textfontfamily;
+            font-size: $mailtitle;
+            font-weight: $textregular;
+        }
+        .maildate{
+            font-size: $mailtitle;
+            padding-right: 10px;
+        }
+    }
+    .mailsubject{
+        font-family: $textfontfamily;
+        font-size: $mailsubject;
+        font-weight: $textlight;
+    }
+    .mailtext{
+        font-family: $textfontfamily;
+        font-size: $mailtext;
+        max-height: 15px;
+        word-break: break-all;
+    }
+}
+
