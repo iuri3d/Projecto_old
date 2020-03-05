@@ -129,8 +129,8 @@
 }
 
 .topbar .user {
-  position: absolute;
-  right: 40px;
+  float: right;
+  margin-right: 40px;
   padding: 5px 0;
 }
 
@@ -146,6 +146,14 @@
   height: 40px;
   border-radius: 50%;
   background-color: black;
+}
+
+.topbar .alerts {
+  height: 100%;
+  font-size: 1rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 body {

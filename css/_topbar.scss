@@ -18,8 +18,8 @@
     background-color: $mainbackgroundcolor;
 
     .user{
-        position: absolute;
-        right: 40px;
+        float: right;
+        margin-right: 40px;
         padding: 5px 0;
 
         .username{
@@ -35,5 +35,11 @@
             border-radius: 50%;
             background-color: black;
         }
+    }
+
+    .alerts{
+        height: 100%;
+        font-size: $iconfontsize;        
+        justify-content: flex-end;
     }
 }
