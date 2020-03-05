@@ -1,0 +1,55 @@
+@import '_utils';
+
+
+.sidebar{
+    list-style: none;
+    position: fixed;
+    height: 100%;
+    background-color: $mainbackgroundcolor;
+    transition: all 0.2s ease-in-out;
+
+    &.open{
+        width: 200px;
+
+        .collapse{
+            display: flex;
+        }
+    }
+
+    .header{
+        justify-content: space-between;
+        padding: 0 7px;
+        height: 60px;
+
+        .logo{
+            padding: 0 25px;
+            font-size: 1.25rem;
+        }
+    }
+
+    .collapse{
+        display: none;
+        transition: all 0.15s ease-in-out;
+    }
+}
+
+.icon{
+    padding: 0 15px;
+    border: 0;
+    background-color: transparent;
+    font-size: $iconfontsize;
+
+    .fas{
+        color: $iconcolor;
+    }
+}
+
+.sidebaritem{
+    padding: 10px 5px;
+    font-size: $textfontsize;
+    font-family: $textfontfamily;
+    font-weight: $textlight;
+    text-decoration: none;
+    color: $textcolor;
+    transition: all 0.15s ease-in-out;
+}

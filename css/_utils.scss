@@ -1,0 +1,31 @@
+$mainbackgroundcolor: red;
+
+$iconfontsize: 1rem ;
+$iconcolor: white;
+
+$textfontsize: 1rem;
+$textfontfamily: 'Open Sans';
+$textlight: 300;
+$textregular: 400;
+$textcolor: white;
+
+
+/////// BORDERS //////
+
+.b-0{
+    border: 0;
+}
+
+
+/////// FLEX ///////
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.just-center{
+    justify-content: center;
+}
