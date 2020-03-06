@@ -21,8 +21,20 @@
           justify-content: center;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
 .p-5 {
   padding: 5px;
+}
+
+.pl-15 {
+  padding-left: 15px;
 }
 
 .dotdotdot {
@@ -121,8 +133,20 @@
           justify-content: center;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
 .p-5 {
   padding: 5px;
+}
+
+.pl-15 {
+  padding-left: 15px;
 }
 
 .dotdotdot {
@@ -199,8 +223,20 @@
           justify-content: center;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
 .p-5 {
   padding: 5px;
+}
+
+.pl-15 {
+  padding-left: 15px;
 }
 
 .dotdotdot {
@@ -252,6 +288,10 @@
   background-color: dimgrey;
 }
 
+.mailitem .mailcontent {
+  width: 100%;
+}
+
 .mailitem .mailimage {
   min-width: 30px;
   min-height: 30px;
@@ -284,7 +324,7 @@
 
 .mailitem .mailtext {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.65;
+  font-size: 0.65rem;
   max-height: 15px;
   word-break: break-all;
 }
@@ -311,8 +351,20 @@
           justify-content: center;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
 .p-5 {
   padding: 5px;
+}
+
+.pl-15 {
+  padding-left: 15px;
 }
 
 .dotdotdot {

@@ -28,6 +28,9 @@
 .mailitem{
     background-color: dimgrey;
 
+    .mailcontent{
+        width: 100%;
+    }
     .mailimage{
         min-width: $mailcircle;
         min-height: $mailcircle;
