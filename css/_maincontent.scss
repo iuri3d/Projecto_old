@@ -19,7 +19,7 @@
 
 .middlerow{
     height: 100px;
-    background-color: darkolivegreen;
+
 
     .flex-item:nth-of-type(1){flex-grow: 1;}
     .flex-item:nth-of-type(2){flex-grow: 1;}
@@ -122,31 +122,91 @@
 
 .list{
     justify-content: space-between;
+    color: $textcolor;
+    font-weight: $textlight;
+
+    .eventdate{
+        font-size: $mailsubject;
+        margin-left: 10px;
+    }
+
+    .flexcolumn{
+
+        margin-left: 10px;
+    }
+
+    .eventstitle{
+        margin: 12px 0;
+        font-size: $mailsubject;
+    }
+
+    .eventtext{
+        font-size: $mailtext;
+        font-weight: $textregular;
+    }
+    .eventutils{
+        margin-right: 10px;
+
+        i{
+            margin: 0 10px;
+        }
+    }
 }
 
 
-.saleobjectives{
 
+
+///////////////////////////////////////MIDDLEROW//////////////////////////////////////////////
+.saleobjectives{
+    background-color: #4062BB;
+    border-radius: 3px;
     p{
+        margin: 10px 0;
         padding-left: 20px;
+        color: $textcolor;
     }
 }
 
 .progressbar{
+    border-radius: 2px;
+    background-color: #70798C;
     width: 100%;
-    background-color: dimgray;
     .bar{
         justify-content: space-around;
         height: 1.5rem;
         width: 45%;
         background-color: dodgerblue;
         color: white;
+        border-radius: 2px 0 0 2px;
     }
+}
+
+.weather{
+    color: $textcolor;
+    background-color: #4062BB;
+    border-radius: 3px;
+}
+
+.social{
+    background-color: #4062BB;
+    border-radius: 3px;
+    color: $textcolor;
+
+    i{
+        color: $iconcolor;
+        font-size: 2rem;
+    }
+}
+
+/////////////////////////////////////////BOTTOMROW///////////////////////////////////////////////
+thead{
+    border-radius: 3px 3px 0 0;
 }
 
 .table-orders{
     width: 100%;
     border-spacing: 0;
+    color: $textcolor;
 
     .table-header{
         height: 35px;
@@ -164,12 +224,12 @@
         }
         tr {
             &:nth-child(even) {
-                background-color: red;
+                background-color: rgba($color: #4062BB, $alpha: 1);
             }
         }
         tr {
             &:nth-child(odd) {
-                background-color: blue;
+                background-color: rgba($color: #508484, $alpha: 1) ;
             }
         }
     }
