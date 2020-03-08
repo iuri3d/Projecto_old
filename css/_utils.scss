@@ -1,4 +1,4 @@
-$mainbackgroundcolor: red;
+$mainbackgroundcolor: #1c1d3a;
 
 $iconfontsize: 1rem ;
 $iconcolor: white;
@@ -9,7 +9,7 @@ $textlight: 300;
 $textregular: 400;
 $textcolor: white;
 
-$sidebarhover: darkred;
+$sidebarhover: #4d5359;
 
 $mailtitle:0.95rem;
 $mailsubject:0.8rem;
@@ -38,6 +38,7 @@ $mailcircle: 30px;
     justify-content: center;
 }
 
+////////////MARGINS PADDINGS///////////////////
 .m-0{
     margin: 0;
 }
@@ -54,6 +55,15 @@ $mailcircle: 30px;
     padding-left: 15px;
 }
 
+.list{
+    list-style-type: none;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}
+
+///////////BREAKTEXT//////////////////
 .dotdotdot{
     text-overflow: ellipsis;
     white-space: nowrap;

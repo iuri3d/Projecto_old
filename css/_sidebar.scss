@@ -17,6 +17,9 @@
     }
 
     .header{
+        color: $textcolor;
+        text-decoration: none;
+        cursor: pointer;
         justify-content: space-between;
         padding: 0 7px;
         height: 60px;

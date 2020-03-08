@@ -1,7 +1,12 @@
 @import '_utils';
 
 .maincontent{
-    background-color: darkgray;
+    margin: 7px;
+    background-color: #4d5359;
+
+    .flex-item + .flex-item {
+        margin-left: 7px;
+    }
 }
 
 .toprow{
@@ -28,8 +33,22 @@
     .flex-item:nth-of-type(2){flex-grow: 1;}
 }
 
+.toprow + .middlerow{
+    margin-top: 7px;
+}
+
+.middlerow + .bottomrow{
+    margin-top: 7px;
+}
+
+
 .emails{
+    border-radius: 3px;
     background-color: darkturquoise;
+
+    p{
+        margin: 12px 0;
+    }
 }
 
 .mailitem{
@@ -76,6 +95,35 @@
 .mailitem + .mailitem {
     border-top: 1px solid white;
 }
+
+.events{
+    border-radius: 3px;
+    background-color: #29116b;
+
+    li + li{
+        border-top: 1px solid black;
+    }
+}
+
+.eventsheader{
+    justify-content: space-between;
+
+    button{
+        width: 24px;
+        height: 24px;
+        background-color: #70798C;
+        padding: 3px;
+        border: 1px solid rgba($color: #70798C, $alpha: 0.5);
+        border-radius: 3px;
+        margin-right: 20px;
+    }
+
+}
+
+.list{
+    justify-content: space-between;
+}
+
 
 .saleobjectives{
 
@@ -126,74 +174,4 @@
         }
     }
 }
-
-#calendar{
-    margin-left: auto;
-    margin-right: auto;
-    width: 320px;
-    font-family: 'Lato', sans-serif;
-  }
-  #calendar_weekdays div{
-    display:inline-block;
-    vertical-align:top;
-  }
-  #calendar_content, #calendar_weekdays, #calendar_header{
-    position: relative;
-    width: 320px;
-    overflow: hidden;
-    float: left;
-    z-index: 10;
-  }
-  #calendar_weekdays div, #calendar_content div{
-    width:40px;
-    height: 40px;
-    overflow: hidden;
-    text-align: center;
-    background-color: #FFFFFF;
-    color: #787878;
-  }
-  #calendar_content{
-    -webkit-border-radius: 0px 0px 12px 12px;
-    -moz-border-radius: 0px 0px 12px 12px; 
-    border-radius: 0px 0px 12px 12px;
-  }
-  #calendar_content div{
-    float: left;
-  }
-  #calendar_content div:hover{
-    background-color: #F8F8F8;
-  }
-  #calendar_content div.blank{
-    background-color: #E8E8E8;
-  }
-  #calendar_header, #calendar_content div.today{
-    zoom: 1;
-    filter: alpha(opacity=70);
-    opacity: 0.7;
-  }
-  #calendar_content div.today{
-    color: #FFFFFF;
-  }
-  #calendar_header{
-    width: 100%;
-    height: 37px;
-    text-align: center;
-    background-color: #FF6860;
-    padding: 18px 0;
-    -webkit-border-radius: 12px 12px 0px 0px;
-    -moz-border-radius: 12px 12px 0px 0px; 
-    border-radius: 12px 12px 0px 0px;
-  }
-  #calendar_header h1{
-    font-size: 1.5em;
-    color: #FFFFFF;
-    float:left;
-    width:70%;
-  }
-  i[class^=icon-chevron]{
-    color: #FFFFFF;
-    float: left;
-    width:15%;
-    border-radius: 50%;
-  }
 
