@@ -38,8 +38,16 @@
     }
 
     .alerts{
+        padding-right: 10px;
         height: 100%;
         font-size: $iconfontsize;        
         justify-content: flex-end;
+        
+
+        .messages, .notifications{
+             margin: 0 10px;
+        }
     }
+
+    
 }
