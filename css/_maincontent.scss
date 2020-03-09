@@ -1,4 +1,4 @@
-@import '_utils';
+
 
 .maincontent{
     margin: 7px;
@@ -48,6 +48,10 @@
 
     p{
         margin: 12px 0;
+    }
+
+    .mailitem:last-child{
+        border-radius: 0 0 3px 3px;
     }
 }
 
