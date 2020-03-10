@@ -321,6 +321,10 @@
   height: 100px;
 }
 
+.middlerow .midPad {
+  padding: 15px 20px;
+}
+
 .middlerow .flex-item:nth-of-type(1) {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -489,8 +493,9 @@
 }
 
 .saleobjectives p {
-  margin: 10px 0;
-  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-left: 0px;
   color: white;
 }
 
@@ -535,6 +540,12 @@ thead {
   width: 100%;
   border-spacing: 0;
   color: white;
+  border: 2px solid #1c1d3a;
+  border-radius: 3px;
+}
+
+.table-orders td {
+  text-align: center;
 }
 
 .table-orders .table-header {
@@ -553,14 +564,15 @@ thead {
 
 .table-orders tbody tr {
   height: 36.5px;
+  color: #1c1d3a;
 }
 
 .table-orders tbody tr:nth-child(even) {
-  background-color: #4062bb;
+  background-color: #d1d1d1;
 }
 
 .table-orders tbody tr:nth-child(odd) {
-  background-color: #508484;
+  background-color: #f2f2f2;
 }
 
 .b-0 {
