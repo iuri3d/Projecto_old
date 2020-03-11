@@ -104,6 +104,10 @@
     border-top: 1px solid white;
 }
 
+.tickets-header{
+    justify-content: space-between;
+}
+
 .events{
     border-radius: 3px;
     background-color: #29116b;
@@ -249,5 +253,10 @@ thead{
             }
         }
     }
+}
+
+.chart{
+    width: calc(100%/3);
+    height: 400px;
 }
 

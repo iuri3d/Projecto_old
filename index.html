@@ -148,20 +148,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="emails flex-item">
-                            <p>Caixa de Entrada</p>
-                            <div class="mailitem d-flex align-center p-5">
-                                <div class="mailimage d-flex align-center just-center">H</div>
-                                <div class="mailcontent">
-                                    <div class="mailheader d-flex">
-                                        <div class="mailtitle">Pedro Correia</div>
-                                        <div class="maildate">15/3</div>
-                                    </div>
-                                    <div class="mailsubject dotdotdot">Encomendar Productos</div>
-                                    <div class="mailtext dotdotdot">Lorem ipsum</div>
-                                </div>
+                        
+                        <div class="tickets flex-item">
+                            <div class="tickets-header d-flex">
+                                <p class="p-5 pl-15">Pedidos</p>
+                                <button type="button"><i class="fas fa-plus"></i></button>
                             </div>
+                            <div class="tickets-body">
+                                <div class="ticket d-flex">
+                                    <div class="ticket-open"><i class="fas fa-chevron-down"></i></div>
+                                    <p class="ticket-subject">Porta da Entrada</p>
+                                    <div class="ticket-state">Em Resolução</div>
+                                    <button type="button"><i class="fas fa-ellipsis-v"></i></button>
+                                </div>
+                                
+                            </div>
+
                         </div>
+
                         <div class="events flex-item">
                             <div class="eventsheader d-flex align-center p-5 pl-15">
                                 <p class="eventstitle">Próximos Eventos</p>
@@ -339,7 +343,7 @@
                             </table>
                         </div>
                         <div class="chart flex-item">
-                            <canvas id="sellers"></canvas>
+                            <div id="chart_div"></div>
                         </div>
                     </div>
             
@@ -353,7 +357,7 @@
 
     <script src="https://kit.fontawesome.com/6d7f575d6e.js" crossorigin="anonymous"></script>
     <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="/js/Chart.min.js" ></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="/js/calendar.js"></script>
     <script src="/js/main.js"></script>
 </body>
