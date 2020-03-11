@@ -104,8 +104,33 @@
     border-top: 1px solid white;
 }
 
+.tickets{
+    border-radius: 3px;
+    background-color: darkblue;
+}
 .tickets-header{
     justify-content: space-between;
+
+    button{
+        border: 0;
+    }
+}
+
+.tickets-body{
+    width: 100%;
+}
+
+.ticket{
+    background-color: lightgrey;
+    width: 100%;
+    padding: 5px;
+    font-size: 0.5rem;
+
+    .ticket-open{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+    }
 }
 
 .events{
